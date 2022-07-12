@@ -1,12 +1,12 @@
-baseURL: https://example.com
+baseURL: https://data-blog.ru
 languageCode: en-us
-defaultContentLanguage: en
-title: Cupper
+defaultContentLanguage: ru
+title: Data. Dev. Agile. Blog
 theme: cupper-hugo-theme
-googleAnalytics: UA-123456789-1
-disqusShortname: yourdiscussshortname
+#googleAnalytics: UA-123456789-1
+disqusShortname: d-blog
 enableGitInfo: true
-navTitleText: Test
+
 taxonomies:
   tag: tags
 
@@ -29,8 +29,8 @@ params:
   showThemeSwitcher: true
   defaultDarkTheme: false
   moveFooterToHeader: false
-  # navTitleText: Cupper Theme
-  logoAlt: An alternative text description of the logo
+  #navTitleText: Cupp Test
+  logoAlt: Другой текст
   customCss:
     - css/custom_01.css
     - css/custom_02.css

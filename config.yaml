@@ -1,10 +1,10 @@
-baseURL: https://data-blog.ru
+baseURL: https://data-post.ru
 languageCode: en-us
 defaultContentLanguage: ru
 title: Data. Dev. Agile. Blog
 theme: cupper-hugo-theme
 #googleAnalytics: UA-123456789-1
-disqusShortname: d-blog
+disqusShortname: d-post
 enableGitInfo: true
 
 taxonomies:
@@ -17,7 +17,7 @@ imaging:
   quality: 99
 
 params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
+  description: Blog about data and managment.
   homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
@@ -52,9 +52,9 @@ menu:
     - name: About
       url: /about/
       weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
+#    - name: RSS
+#      url: /index.xml
+#      weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark
